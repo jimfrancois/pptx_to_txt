@@ -10,15 +10,15 @@ import shutil
 # Define the folder path containing the PowerPoint files
 
 # folder_path = 'C:\\Users\\HP\\Desktop\\samTech\\Projects\\Back-End\\Python\\PowerPoint_to_txt_script\\Powerpoint_to_txt\\All_pp_files'
-input_folder_path = 'C:\\Users\\Dell\\OneDrive\\Desktop\\pptx_to_txt\\Input_pptx'
+folder_path = 'C:\\Users\\HP\\Desktop\\pptx_to_txt\\Input_pptx'
 
-output_path = 'C:\\Users\\Dell\\OneDrive\\Desktop\\pptx_to_txt\\Output_pptx'
+output_path = 'C:\\Users\\HP\\Desktop\\pptx_to_txt\\Output_pptx'
 
 # Initialize the PowerPoint application
 powerpoint = comtypes.client.CreateObject("Powerpoint.Application")
 
 # Iterate through files in the folder
-for root, dirs, files in os.walk(input_folder_path):
+for root, dirs, files in os.walk(folder_path):
     for file in files:
         if file.endswith('.pptx'):
             pptx_path = os.path.join(root, file)
@@ -51,7 +51,7 @@ for root, dirs, files in os.walk(input_folder_path):
 powerpoint.Quit()
 
 
-for root, dirs, files in os.walk(input_folder_path):
+for root, dirs, files in os.walk(folder_path):
     for file in files:
         if file.endswith('.txt'):
             txt_path = os.path.join(root, file)
