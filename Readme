@@ -1,0 +1,34 @@
+Script: pptx_to_txt
+
+Author: Jim and sam
+Director of Project: Kendy
+Copyright: All right reserved
+
+=====================|| pptx_to_txt ||====================
+==========================================================
+
+Description:
+This program is simply convert PowerPoint file into txt file
+
+Features:
+1- Support any path where PowerPoint files are located.
+2- Filter pptx files between any other.
+2- Store converted files into the given location
+
+
+=====================|| How it works ||===================
+==========================================================
+
+1- Provide the path where your pptx file are located into the variable called *folder_path*;
+Example:
+folder_path = C:\\Users\\Dell\\OneDrive\\Desktop\\pptx_to_txt\\Input_pptx
+
+2 = Locate your converted files by giving the output folder path as well.
+Example:
+C:\\Users\\Dell\\OneDrive\\Desktop\\pptx_to_txt\\Output_pptx
+
+
+NB: Make sure that the path are follow by a double back slash (\\)
+
+
+Enjoy!

@@ -10,9 +10,9 @@ import shutil
 # Define the folder path containing the PowerPoint files
 
 # folder_path = 'C:\\Users\\HP\\Desktop\\samTech\\Projects\\Back-End\\Python\\PowerPoint_to_txt_script\\Powerpoint_to_txt\\All_pp_files'
-folder_path = 'C:\\Users\\Dell\\OneDrive\\Desktop\\pptx_to_txt\\Input_pptx'
+folder_path = 'C:\\Users\\HP\\Desktop\\pptx_to_txt\\Input_pptx'
 
-output_path = ''
+output_path = 'C:\\Users\\HP\\Desktop\\pptx_to_txt\\Output_pptx'
 
 # Initialize the PowerPoint application
 powerpoint = comtypes.client.CreateObject("Powerpoint.Application")
